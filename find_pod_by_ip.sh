@@ -10,7 +10,7 @@
 ##               TODO: change this line to shorter
 ## --
 ## Created : <2018-01-04>
-## Updated: Time-stamp: <2018-01-04 23:47:25>
+## Updated: Time-stamp: <2018-01-04 23:48:10>
 ##-------------------------------------------------------------------
 set -e
 
@@ -34,7 +34,7 @@ kubectl get --all-namespaces pods \
     | grep "$pod_ip"
 
 # How to run the script:
-# echo pod_ip="172.42.42.1"; curl -L https://raw.githubusercontent.com/DennyZhang/kubernetes-scripts/master/find_pod_by_ip.sh | bash
+# (echo pod_ip="172.42.42.1"; curl -L https://raw.githubusercontent.com/DennyZhang/kubernetes-scripts/master/find_pod_by_ip.sh) | bash
 
 ## ,----------- Example
 ## | root@k8s1:~# kubectl get --all-namespaces pods -o=jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.status.hostIP}{"\t"}{.status.podIP}{"\t"}{.metadata.namespace}{"\n"}{end}' | grep "$pod_ip"
