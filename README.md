@@ -11,13 +11,13 @@ Handy kubernetes scripts for common scenarios
 
 <a href="https://www.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
 
-- [find_pod_by_ip.sh](find_pod_by_ip.sh): find pod by ip address
-- [list_pods_with_node.sh](list_pods_with_node.sh): list all pods with node info attached
+- [find_pod_by_ip.sh](find_pod_by_ip.sh): find Pods by pod ip address
+- [list_pods_with_node.sh](list_pods_with_node.sh): list all pods with node name attached
 - [verify_k8s_cluster.sh](verify_k8s_cluster.sh): verify the health of k8s cluster
 - [install_dashboard_addon.sh](install_dashboard_addon.sh): Install k8s dashboard
-- [show_cluster_status.sh](show_cluster_status.sh): show cluster overview status
 - [safe_restart.sh](safe_restart.sh): safely restart one single node or all nodes
 - [backup_all_volumes.sh](backup_all_volumes.sh): Detect all volumes and backup with data retention
+- [show_cluster_overview.sh](show_cluster_overview.sh): show cluster overview status
 - Check all: check *.sh in this [GitHub Repo](https://github.com/DennyZhang/kubernetes-scripts)
 
 Got a new idea or a requirement, send me a [ticket](https://github.com/DennyZhang/kurbernet-scripts/issues) or PR.
