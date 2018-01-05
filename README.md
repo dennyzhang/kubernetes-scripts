@@ -1,4 +1,4 @@
-# Basic Intro
+# GitHub: kubernetes-scripts
 <a href="https://github.com/DennyZhang?tab=followers"><img align="right" width="200" height="183" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/fork_github.png" /></a>
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) <a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="http://slack.dennyzhang.com/badge.svg" alt="slack"/></a>
@@ -20,7 +20,7 @@ Handy kubernetes scripts for common scenarios
 - [show_cluster_overview.sh](show_cluster_overview.sh): show cluster overview status
 - Check all: check *.sh in this [GitHub Repo](https://github.com/DennyZhang/kubernetes-scripts)
 
-You have a new requirement? Send me a [ticket](https://github.com/DennyZhang/kurbernet-scripts/issues) or PR.
+You have a new requirement? Send me a [Ticket](https://github.com/DennyZhang/kurbernet-scripts/issues) or PR.
 
 <a href="https://www.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
 
