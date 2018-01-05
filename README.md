@@ -5,7 +5,9 @@
 
 [![LinkedIn](https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/linkedin.png)](https://www.linkedin.com/in/dennyzhang001) [![Github](https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/github.png)](https://github.com/DennyZhang)
 
-File me [tickets](https://github.com/DennyZhang/kurbernet-scripts/issues) or star [the repo](https://github.com/DennyZhang/kurbernet-scripts): https://github.com/DennyZhang/kubernetes-scripts
+File me [tickets](https://github.com/DennyZhang/kurbernet-scripts/issues) or star [the repo](https://github.com/DennyZhang/kurbernet-scripts)
+
+https://github.com/DennyZhang/kubernetes-scripts
 
 Handy kubernetes scripts for common scenarios
 
