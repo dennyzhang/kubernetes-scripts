@@ -7,9 +7,8 @@
 
 File me [tickets](https://github.com/DennyZhang/kurbernet-scripts/issues) or star [the repo](https://github.com/DennyZhang/kurbernet-scripts)
 
-https://github.com/DennyZhang/kubernetes-scripts
-
-Blog post: https://www.dennyzhang.com/kubernetes-scripts
+- GitHub Link: https://github.com/DennyZhang/kubernetes-scripts
+- Blog post: https://www.dennyzhang.com/kubernetes-scripts
 
 Handy kubernetes scripts for common scenarios
 
