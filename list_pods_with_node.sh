@@ -9,7 +9,7 @@
 ## Description :
 ## --
 ## Created : <2018-01-04>
-## Updated: Time-stamp: <2018-01-04 23:44:40>
+## Updated: Time-stamp: <2018-01-04 23:47:24>
 ##-------------------------------------------------------------------
 set -e
 
@@ -17,7 +17,7 @@ set -e
 kubectl get --all-namespaces pods \
         -o=jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.spec.nodeName}{"\t"}{.metadata.namespace}{"\t"}{"\n"}{end}'
 
-# How to run:
+# How to run the script:
 # curl -L https://raw.githubusercontent.com/DennyZhang/kubernetes-scripts/master/list_pods_with_node.sh | bash
 
 ## ,----------- Example
