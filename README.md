@@ -9,8 +9,6 @@ File me [tickets](https://github.com/DennyZhang/kurbernet-scripts/issues) or sta
 
 Handy kubernetes scripts for common scenarios
 
-<a href="https://www.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
-
 - [find_pod_by_ip.sh](find_pod_by_ip.sh): find Pods by pod ip address
 - [list_pods_with_node.sh](list_pods_with_node.sh): list all pods with node name attached
 - [verify_k8s_cluster.sh](verify_k8s_cluster.sh): verify the health of k8s cluster
@@ -26,3 +24,5 @@ Got a new idea or a requirement, send me a [ticket](https://github.com/DennyZhan
 
 # License
 - Code is licensed under [MIT License](https://www.dennyzhang.com/wp-content/mit_license.txt).
+
+<a href="https://www.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
