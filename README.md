@@ -9,6 +9,8 @@ File me [tickets](https://github.com/DennyZhang/kurbernet-scripts/issues) or sta
 
 https://github.com/DennyZhang/kubernetes-scripts
 
+Blog post: https://www.dennyzhang.com/kubernetes-scripts
+
 Handy kubernetes scripts for common scenarios
 
 - [list_pods_with_node.sh](list_pods_with_node.sh): list all pods with node name attached
