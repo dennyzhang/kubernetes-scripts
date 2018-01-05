@@ -11,8 +11,8 @@ https://github.com/DennyZhang/kubernetes-scripts
 
 Handy kubernetes scripts for common scenarios
 
-- [find_pod_by_ip.sh](find_pod_by_ip.sh): find Pods by pod ip address
 - [list_pods_with_node.sh](list_pods_with_node.sh): list all pods with node name attached
+- [find_pod_by_ip.sh](find_pod_by_ip.sh): find Pods by pod ip address
 - [verify_k8s_cluster.sh](verify_k8s_cluster.sh): verify the health of k8s cluster
 - [install_dashboard_addon.sh](install_dashboard_addon.sh): Install k8s dashboard
 - [safe_restart.sh](safe_restart.sh): safely restart one single node or all nodes
