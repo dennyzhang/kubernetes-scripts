@@ -9,7 +9,7 @@
 ## Description : sudo ./find_pod_by_ip.sh 172.17.0.2
 ## --
 ## Created : <2018-01-04>
-## Updated: Time-stamp: <2018-01-04 23:08:31>
+## Updated: Time-stamp: <2018-01-04 23:26:09>
 ##-------------------------------------------------------------------
 set -e
 
@@ -62,6 +62,7 @@ set -e
 ## | nginx-deployment-6546d89874-rv2q2       172.42.42.3     172.17.0.4      nginx-6node-test
 ## `-----------
 
+# kubectl get pods -o json
 pod_ip=${1?}
 # Find pod by ip
 # TODO: change this line to shorter

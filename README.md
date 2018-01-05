@@ -12,6 +12,7 @@ Handy kubernetes scripts for common scenarios
 <a href="https://www.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
 
 - [find_pod_by_ip.sh](find_pod_by_ip.sh): find pod by ip address
+- [list_pods_with_node.sh](list_pods_with_node.sh): list all pods with node info attached
 - [verify_k8s_cluster.sh](verify_k8s_cluster.sh): verify the health of k8s cluster
 - [install_dashboard_addon.sh](install_dashboard_addon.sh): Install k8s dashboard
 - [show_cluster_status.sh](show_cluster_status.sh): show cluster overview status
