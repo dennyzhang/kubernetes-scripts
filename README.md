@@ -17,6 +17,7 @@ Handy kubernetes scripts for common scenarios
 - [show_cluster_status.sh](show_cluster_status.sh): show cluster overview status
 - [safe_restart.sh](safe_restart.sh): safely restart one single node or all nodes
 - [backup_all_volumes.sh](backup_all_volumes.sh): Detect all volumes and backup with data retention
+- All: check *.sh in this GitHub Repo
 
 <a href="https://www.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
 
