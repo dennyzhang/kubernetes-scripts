@@ -9,16 +9,14 @@ File me [tickets](https://github.com/DennyZhang/kurbernet-scripts/issues) or sta
 
 Handy kubernetes scripts for common scenarios
 
-You can create your github repo from it.
-
 <a href="https://www.dennyzhang.com"><img align="right" width="185" height="37" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
 
-# More Examples:
-- [LappleApple/feedmereadmes](https://github.com/LappleApple/feedmereadmes/blob/master/README-maturity-model.md)
-- [RichardLitt/standard-readme](https://github.com/RichardLitt/standard-readme)
-- [awesome-labs/iOS-readme-template](https://github.com/awesome-labs/iOS-readme-template)
-- [LappleApple/feedmereadmes](https://github.com/LappleApple/feedmereadmes)
-- [bevry/projectz](https://github.com/bevry/projectz)
+- [find_pod_by_ip.sh](find_pod_by_ip.sh): find pod by ip address
+- [verify_k8s_cluster.sh](verify_k8s_cluster.sh): verify the health of k8s cluster
+- [install_dashboard_addon.sh](install_dashboard_addon.sh): Install k8s dashboard
+- [show_cluster_status.sh](show_cluster_status.sh): show cluster overview status
+- [safe_restart.sh](safe_restart.sh): safely restart one single node or all nodes
+- [backup_all_volumes.sh](backup_all_volumes.sh): Detect all volumes and backup them with data retention enforced
 
 <a href="https://www.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
 
