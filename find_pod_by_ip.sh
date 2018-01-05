@@ -9,7 +9,7 @@
 ## Description : sudo ./find_pod_by_ip.sh 172.17.0.2
 ## --
 ## Created : <2018-01-04>
-## Updated: Time-stamp: <2018-01-04 22:59:41>
+## Updated: Time-stamp: <2018-01-04 23:08:31>
 ##-------------------------------------------------------------------
 set -e
 
@@ -38,7 +38,7 @@ set -e
 ## | nginx-6node-test   nginx-deployment-6546d89874-rv2q2       1/1       Running   0          5m
 ## `-----------
 
-# List all pods with columns of pod name, pod ip, node ip and namespace name
+# List all pods with columns: pod name, pod ip, node ip and namespace name
 ## ,----------- Example
 ## | root@k8s1:~# kubectl get --all-namespaces pods -o=jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.status.hostIP}{"\t"}{.status.podIP}{"\t"}{.metadata.namespace}{"\n"}{end}'
 ## | wait-8mjxl      172.42.42.2     172.17.0.2      default
@@ -63,8 +63,8 @@ set -e
 ## `-----------
 
 pod_ip=${1?}
-
 # Find pod by ip
+# TODO: change this line to shorter
 kubectl get --all-namespaces pods \
         -o=jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.status.hostIP}{"\t"}{.status.podIP}{"\t"}{.metadata.namespace}{"\n"}{end}' \
     | grep "$pod_ip"
