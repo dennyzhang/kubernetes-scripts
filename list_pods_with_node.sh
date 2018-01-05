@@ -9,15 +9,18 @@
 ## Description :
 ## --
 ## Created : <2018-01-04>
-## Updated: Time-stamp: <2018-01-04 23:32:21>
+## Updated: Time-stamp: <2018-01-04 23:44:40>
 ##-------------------------------------------------------------------
 set -e
 
-# Columns: pod name, node name, namespace
+# List all pods with node name attached. Output: pod name, node name, namespace
 kubectl get --all-namespaces pods \
         -o=jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.spec.nodeName}{"\t"}{.metadata.namespace}{"\t"}{"\n"}{end}'
 
-## ,----------- Sample
+# How to run:
+# curl -L https://raw.githubusercontent.com/DennyZhang/kubernetes-scripts/master/list_pods_with_node.sh | bash
+
+## ,----------- Example
 ## | root@k8s1:~# kubectl get --all-namespaces pods \
 ## | >         -o=jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.spec.nodeName}{"\t"}{.metadata.namespace}{"\t"}{"\n"}{end}'
 ## | etcd-k8s1	k8s1	kube-system
