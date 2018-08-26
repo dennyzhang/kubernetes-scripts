@@ -1,0 +1,56 @@
+* Kubernets Scripts                                                 :Concept:
+:PROPERTIES:
+:type:     crd
+:END:
+
+Blog URL: https://kubernetes.dennyzhang.com/kubernetes-scripts, Category: [[https://kubernetes.dennyzhang.com/category/concept][concept]]
+
+#+BEGIN_HTML
+<a href="https://github.com/dennyzhang/kubernetes-scripts"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+
+<div id="the whole thing" style="overflow: hidden;">
+<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://slack.dennyzhang.com/badge.svg" alt="slack"/></a></div>
+</div>
+
+<br/><br/>
+<a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+#+END_HTML
+
+Handy kubernetes scripts for common scenarios
+
+- [[https://github.com/dennyzhang/kubernetes-scripts/blob/master/list-pods-with-node.sh][list-pods-with-node.sh]]: list all pods with node name attached
+- [[https://github.com/dennyzhang/kubernetes-scripts/blob/master/find-pod-by-ip.sh][find-pod-by-ip.sh]]: find Pods by pod ip address
+- [[https://github.com/dennyzhang/kubernetes-scripts/blob/master/verify-k8s-cluster.sh][verify-k8s-cluster.sh]]: verify the health of k8s cluster
+- [[https://github.com/dennyzhang/kubernetes-scripts/blob/master/install-dashboard-addon.sh][install-dashboard-addon.sh]]: Install k8s dashboard
+- [[https://github.com/dennyzhang/kubernetes-scripts/blob/master/safe-restart.sh][safe-restart.sh]]: safely restart one single node or all nodes
+- [[https://github.com/dennyzhang/kubernetes-scripts/blob/master/backup-all-volumes.sh][backup-all-volumes.sh]]: Detect all volumes and backup with data retention
+- [[https://github.com/dennyzhang/kubernetes-scripts/blob/master/show-cluster-overview.sh][show-cluster-overview.sh]]: show cluster overview status
+- Check all: check *.sh in this [[https://github.com/DennyZhang/kubernetes-scripts][GitHub Repo]]
+
+You have a new requirement? Send me a [[https://github.com/DennyZhang/kurbernet-scripts/issues][Ticket]] or PR.
+
+License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
+
+#+BEGIN_HTML
+<a href="https://www.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
+
+<a href="https://www.dennyzhang.com"><img align="right" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
+#+END_HTML
+
+** org-mode configuration                                          :noexport:
+#+STARTUP: overview customtime noalign logdone hidestars
+ #+DESCRIPTION: 
+#+KEYWORDS: 
+#+AUTHOR: Denny Zhang
+#+EMAIL:  denny@dennyzhang.com
+#+TAGS: noexport(n)
+#+PRIORITIES: A D C
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_EXCLUDE_TAGS: exclude noexport
+#+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
+#+LINK_UP:   
+#+LINK_HOME: 
+
